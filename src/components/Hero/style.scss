@@ -5,13 +5,30 @@ body {
   font-family: Google Sans Display, "sans-serif";
 }
 
+.Nav_container {
+  h1 {
+    font-size: 24px;
+    color: #5f6368;
+  }
+  p {
+    font-size: 12px;
+    color: white;
+    padding: 5px;
+    background-color: #1a73e8;
+    border-radius: 3px;
+  }
+  .logo__google {
+    margin-left: -5px;
+  }
+}
+
 .hero-container {
   .hero-text-section {
     max-width: 10.5em;
     width: calc(100% - 32px);
     margin: 0 auto;
     padding-bottom: 300px;
-    padding-top: 150px;
+    padding-top: 70px;
     text-align: center;
     font-size: 4vw;
     font-weight: 400;
@@ -91,9 +108,9 @@ body {
   }
   .hero-phone-block {
     position: absolute;
-    width: 364px;
-    height: 650px;
-    top: 0;
+    width: 210px;
+    height: 470px;
+    top: -100px;
     left: 50%;
     transform: translateX(-40%) scale(1.5);
     .hero-phone-template {
@@ -106,7 +123,7 @@ body {
         position: absolute;
         width: 64%;
         height: auto;
-        top: 5%;
+        top: 10%;
         left: 9%;
         border-radius: 20px;
         overflow: hidden;
