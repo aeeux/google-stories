@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { gsap } from "gsap";
 
-export default function main() {
+export default function Main() {
   const [loader, setLoader] = useState(true);
 
   useEffect(() => {
