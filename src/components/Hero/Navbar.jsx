@@ -15,7 +15,7 @@ export default function Nav() {
           <MenuIcon />
         </IconButton>
           <h1>Web Stories on 
-          <img className="logo__google" src={logo__google} width="110" height="110" />
+          <img className="logo__google" src={logo__google} width="100" height="100" />
           </h1>
           <p>by Andreas Eriksen</p>
       </NavContainer>
@@ -35,14 +35,16 @@ export default function Nav() {
 }
 
 const NavContainer = styled.div`
+        position: fixed;
         display: flex;
         top: 0;
         background-color: white;
         z-index: 1;
         justify-content: space-between;
+        width: 100%;
         align-items: center;
-        padding: 15px;
-        height: 80px;
+        padding: 12px 8px;
+        height: 40px;
         border-bottom: 1px solid whitesmoke;
     `;
 
@@ -54,7 +56,8 @@ const SidebarButton = styled(Button)`
         width: 100%;
         height: 48px;
         min-width: 98px;
-        top: 5px;
+        top: 50px;
+        margin-top: 100px;
         &&&{
             background-color: #1a73e8;
             font-family: Google Sans Display, "sans-serif";
