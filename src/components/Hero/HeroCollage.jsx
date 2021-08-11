@@ -11,6 +11,7 @@ function VideoElement({ src }) {
         autoPlay
         webkit-playsinline=""
         loop
+        muted
         // poster="https://lh3.googleusercontent.com/AJYQSvDZk4lqSWgBeiKFnE6OXdWWp8up4UdugQPqDVqpV4sW4DOtxzOTcuMJYlU771xp4nhG4mCUrOcPM3HiEbxns9QpTz90wLe13w=s0"
         src={src}
       ></video>
