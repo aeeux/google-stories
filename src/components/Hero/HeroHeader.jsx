@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
-
 export default function HeroHeader() {
   useEffect(() => {
     gsap.fromTo(
@@ -17,7 +16,6 @@ export default function HeroHeader() {
   }, []);
   return (
     <div className="hero-text-section">
-      
       <h1 id="hero-text">Stories meet their wides audience ever</h1>
     </div>
   );
