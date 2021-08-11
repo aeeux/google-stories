@@ -1,5 +1,7 @@
 import React, { useEffect } from "react";
 import { gsap } from "gsap";
+import { logo } from "../../data";
+
 export default function HeroHeader() {
   useEffect(() => {
     gsap.fromTo(
@@ -16,7 +18,8 @@ export default function HeroHeader() {
   }, []);
   return (
     <div className="hero-text-section">
-      <h1 id="hero-text">Stories meet their wides audience ever</h1>
+      <img className="logo" src={logo} width="88" height="88"/>
+      <h1 id="hero-text"><span className="hightlight">Stories</span> meet their widest audience ever.</h1>
     </div>
   );
 }
