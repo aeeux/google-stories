@@ -1,15 +1,21 @@
 .hero-container {
-  .hero-text-section{
+  .hero-text-section {
     max-width: 10.5em;
     width: calc(100% - 32px);
     margin: 0 auto;
     padding-bottom: 300px;
-    padding-top: 300px;
+    padding-top: 150px;
     text-align: center;
     font-size: 4vw;
-    font-weight: 600;
+    font-weight: 400;
     h1 {
       display: inline-block;
+    }
+    .hightlight {
+      font-weight: 600;
+    }
+    #hero-text {
+      padding: 24px 0px 0px;
     }
   }
   .hero-collage {
