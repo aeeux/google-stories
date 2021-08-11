@@ -11,6 +11,10 @@ const videos = [
   "https://kstatic.googleusercontent.com/files/a22c40a5fbc5b4f9eb6fa77e232b4106546d67302244e5c03af4ffcd49a86473f1615f0ffdc8204e62576008050be336dfe0cbb70e754c70f06b4c7ecd4dd3ca",
 ];
 
+const logo = [
+  "https://res.cloudinary.com/aeeux/image/upload/v1628704465/Google%20stories/web-stories-logo_hgm1el.png",
+];
+
 const featureSlides = [
   {
     title: "Complete control",
@@ -34,4 +38,4 @@ const featureSlides = [
       "https://images.unsplash.com/photo-1548366565-6bbab241282d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=934&q=100",
   },
 ];
-export { photos, videos, featureSlides };
+export { photos, videos, logo, featureSlides };
