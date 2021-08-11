@@ -55,9 +55,7 @@ const IconsContainer = styled.div`
 const SidebarButton = styled(Button)`
         width: 100%;
         height: 48px;
-        min-width: 98px;
-        top: 50px;
-        margin-top: 100px;
+        top: 70px;
         &&&{
             background-color: #1a73e8;
             font-family: Google Sans Display, "sans-serif";
