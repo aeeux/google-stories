@@ -70,7 +70,7 @@ const MainButton = styled(Button)`
             color: whitesmoke;
             font-size: 16px;
             padding: 0px 24px 0px;
-          }12
+          }
     `;
 
 const MainButtonMobile = styled(Button)`
