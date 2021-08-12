@@ -7,6 +7,7 @@ import { logo__google } from "../../data";
 import './style.scss';
 
 export default function Nav() {
+
   return (
     <div className="Nav_container">
 
@@ -14,18 +15,22 @@ export default function Nav() {
         <IconButton>
           <MenuIcon />
         </IconButton>
-          <h1>Web Stories on 
+          <h1>Web Stories on
           <img className="logo__google" src={logo__google} width="100" height="100" />
           </h1>
-          <p>by Andreas Eriksen</p>
+          <IconsContainer>
+            <MainButton className="btn__main"
+              style={{textTransform: 'none'}}
+              >Create a story</MainButton>
+          </IconsContainer>
       </NavContainer>
       
       <div className="Nav_container">
       
       <IconsContainer>
-        <SidebarButton
+        <MainButtonMobile className="btn__main_mobile"
         style={{textTransform: 'none'}}
-        >Create a story</SidebarButton>
+        >Create a story</MainButtonMobile>
       </IconsContainer>
       
       </div>
@@ -52,7 +57,21 @@ const IconsContainer = styled.div`
 
     `;
 
-const SidebarButton = styled(Button)`
+const MainButton = styled(Button)`
+        height: 48px;
+        top: 0px;
+        &&& {
+          background-color: #1a73e8;
+          margin-right: 20px;
+            background-color: #1a73e8;
+            font-family: Google Sans Display, "sans-serif";
+            color: whitesmoke;
+            font-size: 16px;
+            padding: 0px 24px 0px;
+          }12
+    `;
+
+const MainButtonMobile = styled(Button)`
         width: 100%;
         height: 48px;
         top: 70px;
