@@ -51,6 +51,7 @@ const NavContainer = styled.div`
         padding: 12px 8px;
         height: 40px;
         border-bottom: 1px solid whitesmoke;
+        -webkit-box-shadow: 0 2px 6px 2px rgb(60 64 67 / 12%);
     `;
 
 const IconsContainer = styled.div`
@@ -63,6 +64,7 @@ const MainButton = styled(Button)`
         &&& {
           background-color: #1a73e8;
           margin-right: 20px;
+          margin-left: -120px;
             background-color: #1a73e8;
             font-family: Google Sans Display, "sans-serif";
             color: whitesmoke;
