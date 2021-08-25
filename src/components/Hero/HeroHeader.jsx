@@ -5,9 +5,11 @@ import { logo } from "../../data";
 export default function HeroHeader() {
   useEffect(() => {
     gsap.fromTo(
-      "#hero-text",
+      ".hero-text-section",
       {
-        opacity: 0,
+        opacity: -1,
+        duration: 0.5,
+        delay: 0.2,
       },
       {
         opacity: 1,
